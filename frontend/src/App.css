@@ -1,0 +1,83 @@
+.app-header {
+    text-align: center;
+    margin: 1%;
+}
+
+.main-app-body {
+    overflow: auto;
+    margin: auto;
+    width: 60%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.seat-layout{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.premium-seat-layout{
+    float: left;
+    width: 50%;
+}
+
+.standard-seat-layout{
+    margin-left: 50%;
+}
+
+.seat {
+    padding: 1%;
+    width: 15%;
+    height: 35px;
+}
+
+.seat-btn {
+    width: 100%;
+    height: 100%;
+}
+
+.seat-layout-holder {
+    overflow: auto;
+}
+
+.seat-book-info {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    padding: 1% 1% 1% 10%;
+}
+
+.seat-info {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    padding: 1%;
+    margin: 1%;
+    width: 20%;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.seat-available {
+    background-color: buttonface;
+}
+
+.seat-booked {
+    background-color: #EE4B2B;
+}
+
+.seat-selected {
+    background-color: #AFE1AF;
+}
+
+.app-footer {
+    width: 10%;
+    margin: auto;
+    padding: 1%;
+    display: flex;
+}
+
+.proceed-btn, .reset-btn {
+    margin: 10%;
+    padding: 5%;
+}
